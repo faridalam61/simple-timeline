@@ -1,14 +1,21 @@
 import React from 'react'
+import { Icon } from '@iconify/react';
 
-function EntryCard() {
+function EntryCard({icon,title,color}) {
   return (
     <div className="entry">
-    <div className="title">
-      <h3>2009 - 2010</h3>
-      <p>Title, Company</p>
+    <div className="date">
+      <div className='icon' style={{background:`${color}`}}>
+      <Icon icon={icon} />
+      </div>
+      <h3>11:30 AM</h3>
     </div>
-    <div className="body">
-      <p>Voluptatibus veniam ea reprehenderit atque reiciendis non laborum adipisci ipsa pariatur omnis.</p>
+    <div className="right-container">
+      <div className="content">
+
+      <h3>{title}</h3>
+      <p>Farid alam</p>
+      </div>
     </div>
   </div>
   )
