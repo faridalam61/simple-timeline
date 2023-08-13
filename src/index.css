@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #E5E5E5;
+}
+
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 33%;
+    bottom: 0px;
+    width: 0.5px;
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.divider{
+    border-top:0px solid rgba(0, 0, 0, 0.20);;
+}
+.divider:nth-child(2){
+    border-top:1px solid rgba(0, 0, 0, 0.20);;
+}
