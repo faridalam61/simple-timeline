@@ -3,8 +3,8 @@ import DateCard from "./Components/DateCard";
 import EntryCard from "./Components/EntryCard";
 function App() {
   return (
-    <div className="container mx-auto p-4 md:p-20">
-      <div className=" bg-white rounded-[40px] py-10 px-2 md:px-5">
+    <div className="container mx-auto p-2 lg:p-4 lg:p-20">
+      <div className=" bg-white rounded-md lg:rounded-[40px] py-5 lg:py-10 px-3 lg:px-5">
         <div className="timeline relative">
           <DateCard
             data={{
@@ -17,8 +17,9 @@ function App() {
           <EntryCard
             data={{
               title: "New task assigned to you",
-              icon: "solar:user-bold",
+              icon: "fluent:person-board-16-filled",
               color: "#5390EB",
+              textColor:'#3FB883'
             }}
           />
           <EntryCard
@@ -50,7 +51,7 @@ function App() {
               color: "#F2BB27",
             }}
           />
-<div className="w-3/4 md:w-2/3 divider"></div>
+<div className="w-3/4 lg:w-2/3 divider"></div>
           <DateCard
             data={{
               day: "THU",
@@ -65,6 +66,7 @@ function App() {
               title: "Meeting with Bobby Charlie",
               icon: "logos:google-meet",
               color: "#fff",
+              border:'#3FB883'
             }}
           />
           <EntryCard
@@ -77,7 +79,7 @@ function App() {
           <EntryCard
             data={{
               title: "Critical delay observed in time line adherence",
-              icon: "ci:warning",
+              icon: "humbleicons:exclamation",
               color: "#E94235",
             }}
           />

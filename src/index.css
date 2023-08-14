@@ -24,7 +24,8 @@ body{
 }
 
 
-@media screen and (max-width:577px) {
+
+@media screen and (max-width:1029px) {
     .timeline::after {  
         top: 0px;
         left: 24%;
