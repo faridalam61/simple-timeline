@@ -3,8 +3,8 @@ import DateCard from "./Components/DateCard";
 import EntryCard from "./Components/EntryCard";
 function App() {
   return (
-    <div className="container mx-auto p-20">
-      <div className=" bg-white rounded-[40px] py-10 px-5">
+    <div className="container mx-auto p-4 md:p-20">
+      <div className=" bg-white rounded-[40px] py-10 px-2 md:px-5">
         <div className="timeline relative">
           <DateCard
             data={{
@@ -50,7 +50,7 @@ function App() {
               color: "#F2BB27",
             }}
           />
-
+<div className="w-3/4 md:w-2/3 divider"></div>
           <DateCard
             data={{
               day: "THU",
