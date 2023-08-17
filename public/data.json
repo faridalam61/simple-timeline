@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1,
+      "day":"WED",
+       "date":"20", 
+       "month":"Jul", 
+       "color":"#3FB883",
+      "tasks": [
+        {
+            "id": 1,
+            "title": "New task assigned to you",
+            "icon": "fluent:person-board-16-filled",
+            "color": "#5390EB",
+            "textColor": "#3FB883"
+          },
+          {
+            "id": 2,
+            "title": "New feedback received for Task Name",
+            "icon": "fluent:person-feedback-16-filled",
+            "color": "#DC395F"
+          },
+          {
+            "id": 3,
+            "title": "Task marked completed by you",
+            "icon": "fe:check",
+            "color": "#3FB883"
+          },
+          {
+            "id": 4,
+            "title": "Task Name updated for journey Journey Name",
+            "icon": "ic:twotone-browser-updated",
+            "color": "#FB8789"
+          },
+          {
+            "id": 5,
+            "title": "Follow up on feedback for Task Name completed on date XX/YY/ZZZZ",
+            "icon": "ri:chat-follow-up-line",
+            "color": "#F2BB27"
+          }
+      ]
+    },
+    {
+      "id": 2,
+      "day":"TUE",
+       "date":"19", 
+       "month":"Jul", 
+       "color":"#AEAFB2",
+      "tasks": [
+        {
+            "id": 6,
+            "title": "Meeting with Bobby Charlie",
+            "icon": "logos:google-meet",
+            "color": "#fff",
+            "border": "#3FB883"
+          },
+          {
+            "id": 7,
+            "title": "Chat about design mentorship",
+            "icon": "clarity:chat-bubble-outline-badged",
+            "color": "#A259FF"
+          },
+          {
+            "id": 8,
+            "title": "Critical delay observed in timeline adherence",
+            "icon": "humbleicons:exclamation",
+            "color": "#E94235"
+          },
+          {
+            "id": 9,
+            "title": "Finish project documentation for review",
+            "icon": "ri:hourglass-fill",
+            "color": "#F2DF37"
+          }
+      ]
+    }
+  ]
+  

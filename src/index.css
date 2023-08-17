@@ -23,6 +23,9 @@ body{
 
 }
 
+.divider:last-child{
+    border-top:0px;
+}
 
 
 @media screen and (max-width:1029px) {

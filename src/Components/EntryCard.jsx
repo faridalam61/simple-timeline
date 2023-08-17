@@ -2,7 +2,9 @@ import React from "react";
 import { Icon } from "@iconify/react";
 
 function EntryCard({ data }) {
+ 
   const { title, icon, color, textColor, border } = data;
+  
   return (
     <div className="flex my-6">
       <div className="w-1/4 lg:w-1/3 relative text-right">
